@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Revista extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'titulo',
+        'editora',
+        'categoria',
+        'edicao',
+        'ano_publicacao',
+        'quantidade_paginas'
+    ];
+}
